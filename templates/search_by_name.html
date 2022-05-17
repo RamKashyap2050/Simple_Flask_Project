@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+{% block body %}
+<h1>{{ title }}</h1><br><br><br>
+
+<form action="/show_user_by_similar_email" method="post">
+    <input type="text"  name="max1" placeholder="Enter Mail Service Name(Eg:- Gmail, Yahoo or Orkut)" size="50px" style="padding:10px;" required><br><br>
+    <input type="submit" value="Search">
+</form>
+{% endblock %}

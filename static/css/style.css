@@ -1,0 +1,58 @@
+
+
+
+h1{
+color: black;
+font-size: 10px
+text-align: center;
+margin: auto;
+}
+form{
+margin: auto;
+text-align: center;
+size: 50px;
+
+
+}
+body{
+margin: auto;
+text-align: center;
+}
+
+nav{
+padding: 20px 0 20px 20px;
+text-decoration: none;
+background-color: beige;
+text-align: right;
+margin: right;
+}
+nav a{
+text-decoration: none;
+padding: 20px;
+color: black;
+}
+a:hover{
+transition-duration: 0.5s;
+background-color: black;
+color: white;
+}
+
+table{
+border: solid 2px black;
+margin: auto;
+text-align: center;
+border-collapse: collapse;
+
+}
+tr, td{
+border: solid 2px black;
+padding: 4px;
+}
+footer{
+text-align: center;
+margin: auto;
+background-color: black;
+color: wheat;
+padding: 24px;
+
+}

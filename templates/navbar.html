@@ -1,0 +1,11 @@
+{% macro navmenu(current) %}
+<nav>
+    <a href="{{url_for('home_page')}}" {% if title == 'Home Page' %} class="active" {% endif %}>Home</a>
+    <a href="{{url_for('about')}}" {% if title == 'About' %} class="active" {% endif %}>About</a>
+    <a href="{{url_for('employee_details')}}" {% if title == 'Our Employee Database' %} class="active" {% endif %}>Employee Database</a>
+    <a href="{{url_for('add_employee')}}" {% if title == 'Employee DB List' %} class="active" {% endif %}>Add an Employee</a>
+    <a href="{{url_for('show_user_by_id')}}" {% if title == 'Show Employee by ID' %} class="active" {% endif %}>Search Employee by ID</a>
+    <a href="{{url_for('show_employee_with_similar_email')}}" {% if title == 'Show Employee who Use Same Mail Company Services' %} class="active" {% endif %}>Search Employee Who Use Same Company Services</a>
+
+</nav>
+{% endmacro %}

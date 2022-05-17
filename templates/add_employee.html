@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block body %}
+<h1>{{ title }}</h1><br><br>
+
+<form action="/add" method="post">
+
+    <input type="text" placeholder="Name" name="name" required size="50px" style="padding:10px;"><br><br>
+
+    <input type="text" placeholder="Enter Employee Mail ID" name="mail_id" min="0" required size="50px" style="padding:10px;"><br><br>
+
+    <input type="text" placeholder="Enter Employee Phone Number " name="ph_num" min="0" required size="50px" style="padding:10px;"><br><br>
+
+    <input type="submit" value="Submit" style="width:386px; padding:10px; border-radius: 4%">
+
+</form>
+
+{% endblock %}

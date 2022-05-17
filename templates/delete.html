@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+{% block body %}
+<h1>{{ title }}</h1><br><br><br>
+
+<form action="/delete" method="post">
+    <input type="number"  name="del" size="50px"><br><br>
+    <input type="submit" value="Search">
+</form>
+{% endblock %}
